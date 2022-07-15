@@ -175,13 +175,15 @@ header {
   .myBrand .myBrand-pic {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .myBrand .myBrand-pic li:first-child {
+    margin-left: auto;
+    margin-right: auto; }
 
 .otherWorks h2 {
   font-size: 64px;
-  line-height: 84px;
   line-height: 84px; }
 
 .otherWorks p {
