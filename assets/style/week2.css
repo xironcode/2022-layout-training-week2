@@ -203,5 +203,9 @@ footer {
   footer h2 {
     font-size: 64px;
     line-height: 84px; }
+  footer a {
+    color: white; }
+  footer a:hover {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=week2.css.map */
