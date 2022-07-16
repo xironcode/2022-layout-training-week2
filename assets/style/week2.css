@@ -14,7 +14,7 @@ a {
   text-decoration: none; }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto; }
 
 .d-b {
@@ -119,6 +119,7 @@ header {
   background-image: url("../images/banner.png");
   height: 958px;
   background-size: cover;
+  background-position: center center;
   font-weight: bold; }
   header .title {
     display: block;
@@ -127,14 +128,10 @@ header {
   header .subtitle {
     display: block;
     line-height: 42px; }
-  header .header-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
+  header .social-icon {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   header .social-icon a:hover img {
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
