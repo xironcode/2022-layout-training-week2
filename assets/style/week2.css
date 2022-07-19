@@ -58,6 +58,9 @@ a {
 .pb-17 {
   padding-bottom: 68px; }
 
+.pb-24 {
+  padding-bottom: 96px; }
+
 .pb-36 {
   padding-bottom: 144px; }
 
@@ -103,6 +106,9 @@ a {
 .mb-14 {
   margin-bottom: 56px; }
 
+.mb-17 {
+  margin-bottom: 68px; }
+
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif, "微軟正黑體";
   font-size: 24px;
@@ -125,11 +131,9 @@ header {
   background-position: center center;
   font-weight: bold; }
   header .title {
-    display: block;
     line-height: 106px;
     font-size: 80px; }
   header .subtitle {
-    display: block;
     line-height: 42px; }
   header .social-icon {
     -webkit-box-pack: justify;
